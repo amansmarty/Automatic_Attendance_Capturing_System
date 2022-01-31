@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "886915340620",
+    "project_id": "attendance-capturing-sys-71849",
+    "storage_bucket": "attendance-capturing-sys-71849.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886915340620:android:98ee91382b790efdd897e9",
+        "android_client_info": {
+          "package_name": "com.example.automaticattendancecapturingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886915340620-pq0v7eg06kf8m17d25nb8p5afa1bo35b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUwS9OVXzctw5YIhfTp0Yi2s9Vc8rqIDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886915340620-pq0v7eg06kf8m17d25nb8p5afa1bo35b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
