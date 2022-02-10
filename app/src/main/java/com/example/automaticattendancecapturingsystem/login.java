@@ -63,7 +63,7 @@ ProgressBar progressBar;
                        if (task.isSuccessful()) {
                            if (user.isEmailVerified()) {
                                Toast.makeText(login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
-                               startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                               startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                                progressBar.setVisibility(View.INVISIBLE);
                            } else {
                                user.sendEmailVerification().addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -83,7 +83,7 @@ ProgressBar progressBar;
             }
         });
         if (user.isEmailVerified()) {
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            startActivity(new Intent(getApplicationContext(), MapsActivity.class));
         }
 
 
